@@ -9,10 +9,10 @@ $font1: 'Maitree', serif
 //                                       //
 ///////////////////////////////////////////
 
-$mainColor: #272938
-$main2Color: #2f3243
+$mainColor: rgba(#474f6e, 1)
+$main2Color: #3b3f58
 $main3Color: #3a3f53
-$secondColor: #6AA1AD
+$secondColor: #A3C1C8
 $second2Color: rgba(#b6d5db, 0.1)
 $blueDetails: #01A1DD
 
@@ -37,7 +37,7 @@ $blueDetails: #01A1DD
 
 .main-row
   margin-top: 25px
-  margin-bottom: 25px
+  // margin-bottom: 25px
   padding-left: 10px
   padding-right: 10px
 
@@ -169,10 +169,13 @@ $blueDetails: #01A1DD
     margin-bottom: 10px
 
 .main-titles
-  background-color: $second2Color
+  background-color: #e5e5ec
+  color: #383838
   padding: 2px 20px 5px
-  border-bottom: 1px solid $main2Color
-  margin-bottom: 10px
+  border-bottom: 2px solid $main2Color
+  margin-bottom: 20px
+  @include box-shadowSoftDown
+
 ///////////////////////////////////////////
 //                                       //
 //               BUTTONS                 //
@@ -190,15 +193,20 @@ $blueDetails: #01A1DD
 
 .hollowBtn
   background-color: transparent
-  border: 2px solid black
+  border: 1px solid black
   @include border-radius(0)
   @include transition(0.2s)
   color: #000
+  .fa
+    color: #433f50
   &:hover
     @include box-shadowDown
-    background-color: #dddddd
+    background-color: $mainColor
     color: #fff
+    .fa
+      color: #f4f4f4
 
+.btn-mod-1
 
 ///////////////////////////////////////////
 //                                       //

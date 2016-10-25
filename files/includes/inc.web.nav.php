@@ -30,6 +30,7 @@
             </ul>
           </li>
           <li class="<?php echo $currentPage == 'congresos.php' ? 'active' : ''; ?>"><a href="congresos.php">Congresos</a></li>
+          <li class="<?php echo $currentPage == 'novedades.php' ? 'active' : ''; ?>"><a href="novedades.php">Novedades</a></li>
           <li class="<?php echo $currentPage == 'contacto.php' ? 'active' : ''; ?>"><a href="contacto.php">Contacto</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
