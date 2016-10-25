@@ -36,7 +36,7 @@
 							</p>
 							<hr>
 							<div class="news-btn">
-								<a href="novedades-articulo.php"><button type="button" class="btn hollowBtn" name="button"><i class="fa fa-chevron-left"></i> Volver a Novedades</button></a>
+								<a href="novedades.php"><button type="button" class="btn hollowBtn" name="button"><i class="fa fa-chevron-left"></i> Volver a Novedades</button></a>
 							</div>
 							<hr>
 							<h3>Otras Noticias</h3>
